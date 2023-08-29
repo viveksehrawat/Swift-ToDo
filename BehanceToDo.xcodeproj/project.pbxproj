@@ -57,8 +57,8 @@
 			children = (
 				4322630F2A9CD472006F8AC5 /* BehanceToDoApp.swift */,
 				432263112A9CD472006F8AC5 /* Splash.swift */,
-				434D88272A9CE532002F5A65 /* ToDoButtonStyle.swift */,
-				434B8AEA2A9E08970088700A /* CustomColor.swift */,
+				434B8AED2A9E0D020088700A /* Utils */,
+				434B8AEC2A9E0CFA0088700A /* Views */,
 				432263132A9CD474006F8AC5 /* Assets.xcassets */,
 				432263152A9CD474006F8AC5 /* Preview Content */,
 			);
@@ -71,6 +71,22 @@
 				432263162A9CD474006F8AC5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		434B8AEC2A9E0CFA0088700A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		434B8AED2A9E0D020088700A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				434D88272A9CE532002F5A65 /* ToDoButtonStyle.swift */,
+				434B8AEA2A9E08970088700A /* CustomColor.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
