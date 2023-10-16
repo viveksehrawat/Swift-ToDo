@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		432263102A9CD472006F8AC5 /* BehanceToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4322630F2A9CD472006F8AC5 /* BehanceToDoApp.swift */; };
-		432263122A9CD472006F8AC5 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432263112A9CD472006F8AC5 /* Splash.swift */; };
 		432263142A9CD474006F8AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432263132A9CD474006F8AC5 /* Assets.xcassets */; };
 		432263172A9CD474006F8AC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432263162A9CD474006F8AC5 /* Preview Assets.xcassets */; };
+		4333F5ED2ADD224300F6AF4E /* CreateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4333F5EC2ADD224300F6AF4E /* CreateTaskView.swift */; };
+		4333F5EF2ADD239600F6AF4E /* TextFieldVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4333F5EE2ADD239600F6AF4E /* TextFieldVeiw.swift */; };
 		434B8AEB2A9E08970088700A /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B8AEA2A9E08970088700A /* CustomColor.swift */; };
 		434D88282A9CE532002F5A65 /* ToDoButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434D88272A9CE532002F5A65 /* ToDoButtonStyle.swift */; };
 /* End PBXBuildFile section */
@@ -18,9 +19,10 @@
 /* Begin PBXFileReference section */
 		4322630C2A9CD472006F8AC5 /* BehanceToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BehanceToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4322630F2A9CD472006F8AC5 /* BehanceToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehanceToDoApp.swift; sourceTree = "<group>"; };
-		432263112A9CD472006F8AC5 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 		432263132A9CD474006F8AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		432263162A9CD474006F8AC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4333F5EC2ADD224300F6AF4E /* CreateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskView.swift; sourceTree = "<group>"; };
+		4333F5EE2ADD239600F6AF4E /* TextFieldVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldVeiw.swift; sourceTree = "<group>"; };
 		434B8AEA2A9E08970088700A /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		434D88272A9CE532002F5A65 /* ToDoButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				4322630F2A9CD472006F8AC5 /* BehanceToDoApp.swift */,
-				432263112A9CD472006F8AC5 /* Splash.swift */,
+				4333F5EC2ADD224300F6AF4E /* CreateTaskView.swift */,
+				4333F5EE2ADD239600F6AF4E /* TextFieldVeiw.swift */,
 				434B8AED2A9E0D020088700A /* Utils */,
 				434B8AEC2A9E0CFA0088700A /* Views */,
 				432263132A9CD474006F8AC5 /* Assets.xcassets */,
@@ -117,7 +120,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					4322630B2A9CD472006F8AC5 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -159,7 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432263122A9CD472006F8AC5 /* Splash.swift in Sources */,
+				4333F5EF2ADD239600F6AF4E /* TextFieldVeiw.swift in Sources */,
+				4333F5ED2ADD224300F6AF4E /* CreateTaskView.swift in Sources */,
 				434D88282A9CE532002F5A65 /* ToDoButtonStyle.swift in Sources */,
 				434B8AEB2A9E08970088700A /* CustomColor.swift in Sources */,
 				432263102A9CD472006F8AC5 /* BehanceToDoApp.swift in Sources */,
@@ -205,6 +209,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -265,6 +270,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -298,6 +304,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

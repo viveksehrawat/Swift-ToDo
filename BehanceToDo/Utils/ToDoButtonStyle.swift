@@ -36,7 +36,6 @@ struct ToDoButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .padding()
-            .bold()
             .frame(minWidth: 0, maxWidth: width)
             .frame(height: 45) // Set the desired height
             .foregroundColor(buttonType.fgColor)
